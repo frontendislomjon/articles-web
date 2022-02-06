@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed',sans-serif;
+}
+
+.demo{
+    width: 750px;
+    height: 760px;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://picsum.photos/id/661/750/770');
+}
+.demo-text{
+
+    width: 285px;
+    margin: 0 100px;
+    padding-top: 320px;
+    margin-left: 140px;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 2px;
+    color: #ff00ff;
+} 
+.btn{
+    padding: 0;
+    
+}
+.inner-text{
+    
+    margin-left: 12px;
+    color: #fff;
+    font-size: 16px;
+    padding: 0;
+
+}
+.container-inner{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    position: absolute;
+    width: 164px;
+    height: 48px;
+    left: 158px;
+    top: 408px;
+    margin: 0;
+    background: #1E90FF;
+}
+.main-header{
+    position: absolute;
+    width: 201px;
+    height: 29px;
+    margin-left: 804px;
+    top: 54px;
+    
+}
+
+.main-text{
+       
+    font-family: 'Bebas Neue',sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    color: #222222;
+    width: 300px;
+}
+.main-line{
+    border: 1px solid #999;
+    width: 492px;
+    height: 0px;
+    left: 654px;
+    top: 107px;
+    margin-bottom: 24px;
+}
+.frame1 {
+    
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 492px;
+    height: 90px;
+    left: 0px;
+    top: 100px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 10px 0px;
+
+}
+.blok1, .blok2, .blok3 {
+    display: flex;
+    margin-bottom: 10px;
+}
+.blok1-text {
+     width: 307px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 2px;
+
+    color: #222222;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left:16px;
+}
+.end{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+
+    position: absolute;
+    width: 492px;
+    height: 40px;
+    top: 444px;
+    background: #1E90FF;
+    border-radius: 4px;
+    border-color: #1E90FF;
+}
+.end p{
+   
+    left: 209px;
+    top: 12px;
+
+    font-family: 'Roboto Condensed',sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+
+
+}
+
